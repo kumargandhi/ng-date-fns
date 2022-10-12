@@ -1,4 +1,5 @@
 <div class="page-container">
   <h3>{{ title }}</h3>
-  <p>Formatted today - {{ _fToday }}</p>
+  <p>Formatted today using format - {{ _fToday }}</p>
+  <p>Formatted today using pipe - {{ today | datefns:'UTC':'MM/dd/yyyy hh:mm:ss' }}</p>
 </div>
