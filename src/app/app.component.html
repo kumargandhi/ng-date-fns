@@ -1,5 +1,7 @@
 <div class="page-container">
   <h3>{{ title }}</h3>
-  <p>Formatted today using format - {{ _fToday }}</p>
-  <p>Formatted today using pipe - {{ today | datefns:'UTC':'MM/dd/yyyy hh:mm:ss' }}</p>
+  <p>Format (MM/dd/yyyy) today using format function - {{ _fToday }}</p>
+  <p>Format (MM/dd/yyyy hh:mm:ss) today using pipe - {{ today | datefns:'UTC':'MM/dd/yyyy hh:mm:ss' }}</p>
+  <p>Format (mm dd yyyy, hh:mm) timestamp using pipe - {{ 1664950200000 | datefns:'America/Chicago':'MM/dd/yyyy' }}</p>
+  <!-- TODO : Above should display data in pattern Oct 05 2022, 01:10 AM -->
 </div>

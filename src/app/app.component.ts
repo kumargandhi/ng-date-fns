@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { format, compareAsc } from 'date-fns'
+import { format } from 'date-fns'
 import { DateFnsPipe } from './date-fns.pipe';
 
 @Component({
