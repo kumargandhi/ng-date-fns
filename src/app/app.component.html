@@ -1,7 +1,37 @@
 <div class="page-container">
   <h3>{{ title }}</h3>
-  <p>Format (MM/dd/yyyy) today using format function - {{ _fToday }}</p>
-  <p>Format (MM/dd/yyyy hh:mm:ss) today using pipe - {{ today | datefns:'UTC':'MM/dd/yyyy hh:mm:ss' }}</p>
-  <p>Format (mm dd yyyy, hh:mm) timestamp using pipe - {{ 1664950200000 | datefns:'America/Chicago':'MM/dd/yyyy' }}</p>
-  <!-- TODO : Above should display data in pattern Oct 05 2022, 01:10 AM -->
+  <table class="table table-primary table-striped mt-3">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Description</th>
+        <th scope="col">Raw value</th>
+        <th scope="col">Pattern</th>
+        <th scope="col">Output</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Format (MM/dd/yyyy) today using format function</td>
+        <td>{{ today }}</td>
+        <td>MM/dd/yyyy</td>
+        <td>{{ _fToday }}</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Format (MM/dd/yyyy hh:mm:ss) today using pipe</td>
+        <td>{{ today }}</td>
+        <td>'UTC':'MM/dd/yyyy hh:mm:ss'</td>
+        <td>{{ today | datefns:'UTC':'MM/dd/yyyy hh:mm:ss' }}</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Format (MMM dd yyyy, hh:mm M) timestamp value using pipe</td>
+        <td>1664950200000</td>
+        <td>'America/Chicago':'MMM dd yyyy, hh:mm aa'</td>
+        <td>{{ 1664950200000 | datefns:'America/Chicago':'MMM dd yyyy, hh:mm aa' }}</td>
+      </tr>
+    </tbody>
+  </table>
 </div>

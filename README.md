@@ -1,27 +1,28 @@
-# NgDateFns
+# Code samples in [Angular](https://angular.io/) application using date-fns library!
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
+> **Perform date formats, leverage date-fns to pipe service, and working with timeZones!.**
 
-## Development server
+<!-- ![Search for country](https://kumargandhi.github.io/assets/ng-xlsx/NgXlsx.png) -->
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Checkout [date-fns](https://date-fns.org/) library for more info on working with dates. 
 
-## Code scaffolding
+Created with `angular cli $ng new`. See the [Guide](https://angular.io/tutorial/toh-pt0).
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Live URL :-
 
-## Build
+<!-- > [ng-xlsx](https://ng-xlsx.netlify.app/) -->
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+**OR your can do the following to run in your local machine**
 
-## Running unit tests
+## Scripts
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Install node modules
 
-## Running end-to-end tests
+#### `npm install`
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+In the project directory, you can run:
 
-## Further help
+#### `npm start`
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Runs the app in the development mode.<br>
+Open [http://localhost:4200](http://localhost:4200) to view it in the browser.
