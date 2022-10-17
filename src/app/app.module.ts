@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { DateFnsPipe } from './date-fns.pipe';
+import { LineChartComponent } from './line-chart/line-chart.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DateFnsPipe
+    DateFnsPipe,
+    LineChartComponent
   ],
   imports: [
     BrowserModule
