@@ -1,5 +1,6 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import { format, utcToZonedTime, zonedTimeToUtc } from 'date-fns-tz';
+import format from 'date-fns-tz/format';
+import utcToZonedTime from 'date-fns-tz/utcToZonedTime';
 
 @Pipe({
     name: 'datefns'

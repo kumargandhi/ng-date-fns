@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { format } from 'date-fns'
+import format from 'date-fns/format';
 import { DateFnsPipe } from './date-fns.pipe';
 
 @Component({
@@ -11,6 +11,8 @@ export class AppComponent {
   title = 'ng-date-fns';
 
   today = new Date();
+
+  utcDate = new Date('2018-09-01T16:01:36.386Z');
 
   _fToday = format(this.today, 'MM/dd/yyyy');
 

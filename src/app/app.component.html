@@ -27,10 +27,17 @@
       </tr>
       <tr>
         <th scope="row">3</th>
-        <td>Format (MMM dd yyyy, hh:mm M) timestamp value using pipe</td>
+        <td>Format timestamp value using pipe</td>
         <td>1664950200000</td>
         <td>'America/Chicago':'MMM dd yyyy, hh:mm aa'</td>
         <td>{{ 1664950200000 | datefns:'America/Chicago':'MMM dd yyyy, hh:mm aa' }}</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Format UTC date to local time using timezone</td>
+        <td>{{ utcDate }}</td>
+        <td>'Europe/Berlin':'MMM dd yyyy, hh:mm aa'</td>
+        <td>{{ utcDate | datefns:'Europe/Berlin':'MMM dd yyyy, hh:mm aa' }}</td>
       </tr>
     </tbody>
   </table>
