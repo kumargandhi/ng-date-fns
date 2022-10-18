@@ -2,17 +2,13 @@
 
 > **Perform date formats, leverage date-fns to pipe service, and working with timeZones!.**
 
-<!-- ![Search for country](https://kumargandhi.github.io/assets/ng-xlsx/NgXlsx.png) -->
+![date-fns](https://kumargandhi.github.io/assets/ng-date-fns/NgDateFns.png)
 
 Checkout [date-fns](https://date-fns.org/) library for more info on working with dates. 
 
 Created with `angular cli $ng new`. See the [Guide](https://angular.io/tutorial/toh-pt0).
 
-## Live URL :-
-
-<!-- > [ng-xlsx](https://ng-xlsx.netlify.app/) -->
-
-**OR your can do the following to run in your local machine**
+**Do the following to run the app in your local machine**
 
 ## Scripts
 
